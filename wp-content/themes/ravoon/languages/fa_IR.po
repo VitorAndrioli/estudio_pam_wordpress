@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ravoon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-06 15:50+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: maysam <persianboys.ir@gmail.com>\n"
+"Language-Team: Hot Tehran <HotTehran@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp\\wp-content\\themes\\ravoon\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp\\wp-content\\themes\\ravoon\n"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:5
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:7
+msgid "Error 404 - Not Found"
+msgstr "خطای ۴۰۴ - پیدا نشد"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:12
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:41
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:38
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:22
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:29
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:39
+msgid "Copyright &copy; "
+msgstr "کپی رایت &copy; "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:39
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:40
+msgid "Powered by "
+msgstr " نیرو گرفته از "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:39
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:40
+msgid "<a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "<a href=\"http://wordpress.org/\">وردپرس </a><a href=\"http://wp-persian.com/\"> فارسی </a>"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:43
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:40
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:24
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:32
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:41
+msgid "Theme Design By <a href=\"http://weblog.Hottehran.ir\">Maysam</a>"
+msgstr " طراح قالب: <a href=\"http://weblog.Hottehran.ir\">میثم محمودی</a>"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:44
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:41
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:25
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:32
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:38
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:42
+msgid "Entries (RSS)"
+msgstr " پیگیری نوشته‌ها با RSS"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:45
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:26
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:34
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:43
+msgid "and"
+msgstr "و"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:45
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:26
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:34
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:43
+msgid "Comments (RSS)"
+msgstr " پیگیری دیدگاهها با RSS"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:10
+msgid "Archive for the"
+msgstr "بایگانی برای "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:10
+msgid "Category"
+msgstr "موضوع"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:12
+msgid "Posts Tagged"
+msgstr "تگهای پست : "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:18
+msgid "Archive for"
+msgstr "بایگانی برای "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:14
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:16
+msgid "F, Y"
+msgstr "j F Y "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:18
+msgid "Y"
+msgstr "Y"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:20
+msgid "Author Archive"
+msgstr "بایگانی نویسنده"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:22
+msgid "Blog Archives"
+msgstr "بایگانی وب‌‌نامه (وبلاگ)"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:36
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:32
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:12
+msgid "Archives by Month:"
+msgstr "بایگانی برای ماه :  "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:25
+msgid "Archives by Subject:"
+msgstr "بایگانی موضوعی:"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "این نوشته رمزدار است. برای دیدن نظرات٬ رمز را بنویسید."
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "No Responses to"
+msgstr "بدون نظر به "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "One Response to"
+msgstr "یک نظر به "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "% Responses to"
+msgstr "% نظر به "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:46
+msgid "Comments are closed"
+msgstr "نظرات بسته شده است ."
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:54
+msgid "Leave a Reply"
+msgstr "ارسال نظر"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "You must be"
+msgstr "باید"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "logged in"
+msgstr "وارد سایت شده باشید"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "to post a comment."
+msgstr " برای ارسال نظر"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Logged in as"
+msgstr "وارد شده با نام"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Log out of this account"
+msgstr "بیرون رفتن از این حساب"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Log out"
+msgstr "خروج"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:73
+msgid "Name"
+msgstr "نام:"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:76
+msgid "Mail (will not be published)"
+msgstr "ایمیل (برای عموم نمایش داده نخواهد شد)"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:79
+msgid "Website"
+msgstr "وب سایت"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:83
+msgid "You can use these tags:"
+msgstr "شما میتوانید از این تگها استفاده کنید: "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:87
+msgid "Submit Comment"
+msgstr "فرستادن نظر"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:33
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "ببخشید، اما  چیزی که در اینجا  گشتید وجود نداره."
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-pagebar.php:5
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:16
+msgid "Newer Entries &raquo;"
+msgstr "نوشته‌های بعدی &raquo;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-pagebar.php:6
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:17
+msgid "&laquo; Older Entries"
+msgstr "نوشته‌های قبلی &raquo;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:6
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:9
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:9
+msgid "Posted by"
+msgstr "نویسنده:"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:7
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:10
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:10
+msgid " at "
+msgstr "در"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:11
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:14
+msgid "<br />Read the rest of this entry &raquo;"
+msgstr "<br />ادامه مطلب &raquo;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:12
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:17
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:15
+msgid "Pages:"
+msgstr "صفحات: "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:17
+msgid " Tags: "
+msgstr "<br /> برچسب ها: "
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:18
+msgid "Posted in:"
+msgstr "نوشته شده در"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "No Comments &#187;"
+msgstr "بدون نظر &#187;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "1 Comment &#187;"
+msgstr "یک نظر &#187;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "% Comments &#187;"
+msgstr "% نظرات &#187;"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:17
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:19
+msgid "Edit"
+msgstr "ویرایش"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:6
+msgid "Search Results"
+msgstr "نتایج جست‌وجو"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/searchform.php:3
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:5
+msgid "Search"
+msgstr "جستجو"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:10
+msgid "Pages"
+msgstr "صفحات"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:18
+msgid "Archives"
+msgstr "بایگانی"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:26
+msgid "Categories"
+msgstr "موضوعات"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:34
+msgid "Meta"
+msgstr "دیگر"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:39
+msgid "Valid xhtml"
+msgstr "معتبر سنجی xhtml"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:40
+msgid "Valid CSS"
+msgstr "معتبر سنجی CSS"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:47
+msgid "Links"
+msgstr "پیوندها"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:54
+msgid "Calendar"
+msgstr "تقویم"
+
+#~ msgid "to"
+#~ msgstr "برای"
+#~ msgid "Says: "
+#~ msgstr "گفت:"
+#~ msgid "at"
+#~ msgstr "در"
+#~ msgid "edit"
+#~ msgstr "ویرایش"
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "نظر شما باید بررسی و تایید شود."
+#~ msgid "<p><b>Pages:</b> "
+#~ msgstr "<p><b>صفحات:</b> "
+#~ msgid "number"
+#~ msgstr "تعداد"
+#~ msgid "feed for comments on this post."
+#~ msgstr "خوراک برای این نوشته"
+#~ msgid "Leave a comment"
+#~ msgstr "ارسال یک نظر"
+#~ msgid "Line and paragraph breaks automatic, e-mail address never displayed"
+#~ msgstr ""
+#~ "خط‌ها و پاراگراف‌ها به خودی خود شکسته می‌شوند٬ پست الکترونیک پنهان می‌شود"
+#~ msgid "allowed:"
+#~ msgstr "مجاز:"
+#~ msgid "E-mail"
+#~ msgstr "ایمیل"
+#~ msgid "Your Comment"
+#~ msgstr "نظر شما"
+
+#, fuzzy
+#~ msgid "Say It!"
+#~ msgstr "گفت:"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "ببخشید، نمی‌توانید دیدگاهی بنویسید"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "RSS پیگیری دیدگاه‌ها"
+
+#, fuzzy
+#~ msgid "No comments yet."
+#~ msgstr "بدون نظر &#187;"
+
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "RSS پیگیری دیدگاه‌ها"
+#~ msgid "by"
+#~ msgstr "با"
+#~ msgid "Copyright &copy; 2009"
+#~ msgstr "کپی رایت &copy;"
+#~ msgid ""
+#~ "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack "
+#~ "this entry is:"
+#~ msgstr ""
+#~ "<abbr title=\"Universal Resource Locator\">نشلنی</abbr> برای بازتاب "
+#~ "فرستادن به این نوشته:"
+#~ msgid "Trackback"
+#~ msgstr "بازتاب"
+#~ msgid "Pingback"
+#~ msgstr "بازتاب"
+#~ msgid " powered by <a href=\"http://wp-persian.com/\">Persian</a>"
+#~ msgstr "نیرو گرفته از <a href=\"http://wordpress.org/\">وردپرس</a> "
+#~ msgid "Theme By <a href=\"http://weblog.Hottehran.ir\">Maysam</a>"
+#~ msgstr "- طراح قالب: <a href=\"http://weblog.Hottehran.ir\">میثم محمودی</a>"
+#~ msgid "Theme Designer"
+#~ msgstr "طراح قالب"
+#~ msgid "Persian Wordpress"
+#~ msgstr "وردپرس فارسی"
+#~ msgid ""
+#~ " powered by\n"
+#~ "\t\t<a href=\"http://wp-persian.com/\">persian </a><a href=\"http://"
+#~ "wordpress.org/\">WordPress</a>"
+#~ msgstr ""
+#~ "نیرو گرفته از <a href=\"http://wordpress.org/\">وردپرس</a> <a href="
+#~ "\"http://wp-persian.com/\">فارسی</a>"
+

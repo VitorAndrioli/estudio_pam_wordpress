@@ -1,0 +1,34 @@
+body {
+background: #999;
+}
+
+#wrapper{
+background: #fff url("../images/wrapperbg_lgrey.jpg") top center repeat-y;
+}
+
+
+#header{
+background: #999 url("../images/headerbg_lgrey.jpg") bottom center no-repeat;
+}	
+ 
+
+#footer {
+background:  url("../images/footerbg_lgrey.jpg") bottom center no-repeat;
+}
+
+#credit{
+background: #999;
+}
+
+#credit p, #credit p a, #credit p a:hover{
+color:#555;
+}
+
+#search{
+background: #888;
+border: 1px solid #666;
+}
+
+#search input{
+color: #fff;
+}

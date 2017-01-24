@@ -1,0 +1,1536 @@
+/*
+
+Theme Name: iNspiration
+
+Theme URI: http://itomba.com/index.php/blog/comments/inspiration-free-wordpress-theme/
+
+Description:  Business Company style design and optimize by <a href="mailto:obconcept@gmail.com/">iTom+</a>. This version 1.2 i have change some of code, optimize CSS for ie6 users and others little bit change. Thank you for downloads.
+
+Version: 1.2.2
+
+Author: iTom+
+
+Author URI: http://itomba.com/
+
+Tags: blue, three-columns, dark, fixed-width
+
+
+
+	The CSS, XHTML and design is released under GPL:
+
+	http://www.opensource.org/licenses/gpl-license.php
+
+
+
+*/
+
+
+
+/* Thank you for 960 Grid System : http://960.gs */
+
+@import url('reset.css');
+
+@import url('960.css');
+
+@import url('text.css');
+
+
+
+/* Begin Typography & Colors */
+
+body {
+
+	color: #333;
+
+	text-align: center;
+
+	}
+
+
+
+#wrapper {
+
+	background-color: white;
+
+	text-align: left;
+
+	}
+
+
+
+#header {
+
+	background: #73a0c5;
+
+	height:50px;
+
+	}
+
+
+
+#header h1 { display:block; float:left; letter-spacing:2px;  }
+
+
+
+#sub-header,#sub-header h3, #footer, #recent-block a:link, #recent-block a:visited, #recent-block h2, #recent-block h3, #recent-block { color:#fff !important; }
+
+
+
+#welcome h1 { font-size:2.2em; line-height:1em; }
+
+
+
+#content {
+
+	font-size: 1em
+
+	}
+
+
+
+.entry p {
+
+	font-size: 1.05em;
+
+	}
+
+
+
+.entry {
+
+	line-height: 1.4em;
+
+	padding:0 0 0 10px;
+
+	}
+
+
+
+#tag_cloud a {
+
+	line-height:0.8em
+
+	}
+
+	
+
+.alt {
+
+	background-color: #f8f8f8;
+
+	border-top: 1px solid #ddd;
+
+	border-bottom: 1px solid #ddd;
+
+	}
+
+
+
+#footer {
+
+	border: none;
+
+	}
+
+
+
+small {
+
+	font-family: Arial, Helvetica, Sans-Serif;
+
+	font-size: 0.9em;
+
+	line-height: 1.5em;
+
+	}
+
+
+
+pre {
+
+	overflow:scroll;
+
+	padding:7px 0;
+
+	margin:4px 0;
+
+   }
+
+	
+
+h1, h2, h3, #topnav a {
+
+	font-weight: bold;
+
+	padding:10px 0;
+
+	}
+
+
+
+h1 {
+
+	font-size: 2em;
+
+	}
+
+
+
+h2, h2.pagetitle, h3#comments{
+
+	font-size: 1.6em;
+
+	}
+
+
+
+#sidebar h2 {
+
+	font-size: 1.2em;
+
+	color:#444;
+
+	}
+
+
+
+h3, #topnav a, #tag_cloud a {
+
+	font-size: 1.3em;
+
+	}
+
+
+
+h3#comments { margin-top:20px; }	
+
+	
+
+h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description, #spbox2 ul li a, #topnav a {
+
+	text-decoration: none;
+
+	color: white;
+
+	}
+
+
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+
+	color: #333;
+
+	}
+
+
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+
+	text-decoration: none;
+
+	}
+
+
+
+.commentlist li, #commentform input, #commentform textarea {
+
+	font-size: 0.9em;
+
+	}
+
+
+
+.commentlist li {
+
+	font-weight: bold;
+
+	}
+
+
+
+.commentlist li .avatar { 
+
+	float: right;
+
+	border: 1px solid #eee;
+
+	padding: 2px;
+
+	background: #fff;
+
+	}
+
+
+
+.commentlist cite, .commentlist cite a {
+
+	font-weight: bold;
+
+	font-style: normal;
+
+	font-size: 1.1em;
+
+	}
+
+
+
+.commentlist p {
+
+	font-weight: normal;
+
+	line-height: 1.5em;
+
+	text-transform: none;
+
+	}
+
+
+
+.commentmetadata {
+
+	font-weight: normal;
+
+	}
+
+
+
+#sidebar {
+
+	font: 1em;
+
+	}
+
+
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+
+	color: #777;
+
+	}
+
+
+
+code {
+
+	font: 1.1em 'Courier New', Courier, Fixed;
+
+	}
+
+
+
+acronym, abbr, span.caps
+
+{
+
+	font-size: 0.9em;
+
+	letter-spacing: .07em;
+
+	}
+
+
+
+a, h2 a:hover, h3 a:hover, h2.post-title a:hover, #topnav a:hover, #content h1, h1 a:hover {
+
+	color: #da4d44;
+
+	text-decoration: none;
+
+	}
+
+
+
+a:hover, #spbox2 ul li a:hover  {
+
+	color: #222;
+
+	text-decoration: underline;
+
+	}
+
+
+
+#wp-calendar #prev a, #wp-calendar #next a {
+
+	font-size: 9pt;
+
+	}
+
+
+
+#wp-calendar a {
+
+	text-decoration: none;
+
+	}
+
+
+
+#wp-calendar caption {
+
+	font-weight: bold;
+
+	font-size:1.3em;
+
+	text-align: center;
+
+	}
+
+
+
+#wp-calendar th {
+
+	font-style: normal;
+
+	text-transform: capitalize;
+
+	}
+
+/* End Typography & Colors */
+
+
+
+
+
+
+
+/* Begin Structure */
+
+body {
+
+	background:url(images/bg-pattern.gif);
+
+	}
+
+
+
+#header {
+
+	background-color: #44555f;
+
+	height: 50px;
+
+	border-top:10px solid #000;
+
+	}
+
+
+
+#header h1 { 
+
+	padding:7px 45px 10px 0;
+
+	background:url(images/header-icon.gif) 100% 2% no-repeat;
+
+	margin:5px 0 0 0;
+
+	}
+
+
+
+#header .grid_6 {
+
+	position:relative;
+
+	}
+
+	
+
+#header small {
+
+	float:left;
+
+	font-size:80%;
+
+	position:absolute;
+
+	bottom:-10px;
+
+	letter-spacing:1px;
+
+	left:0;
+
+}
+
+
+
+#topnav ul, #bottomnav ul {
+
+	list-style:none;
+
+	}
+
+	
+
+#topnav ul li, #bottomnav ul li {
+
+	display:inline;
+
+	margin-right:10px;
+
+	}
+
+	
+
+#topnav ul li a, #bottomnav ul li a, #footer p {
+
+	float:left;
+
+	display:block;
+
+	padding:15px 10px;
+
+	}
+
+
+
+#recent-block {
+
+	background:#000 url(images/recent-bg.png) top left no-repeat;
+
+	padding:10px 0
+
+	}
+
+	
+
+#recent-block .grid_4 { margin:10px; }
+
+
+
+#recent-block ul li { list-style:none; background:url(images/icon2.gif) 0 5px no-repeat; padding:4px 0 4px 18px; border-bottom:1px dashed #333; margin-left:10px; }
+
+
+
+#footer p {
+
+	background:url(images/logo-icon.gif) 0 4px no-repeat;
+
+	padding-left:40px !important;
+
+	}
+
+
+
+#bottomnav ul, #footer p {
+
+	margin-top:7px;
+
+	}
+
+	
+
+#bottomnav ul li a, #footer p { 
+
+	padding:4px 10px;
+
+	}
+
+
+
+#bottomnav ul li#gotop a {
+
+	float:right;
+
+	padding-right:16px !important;
+
+	background:url(images/up-arrow.gif) 100% 4px no-repeat;
+
+	}
+
+
+
+#sub-header { 
+
+	background:url(images/header-img.png) repeat-y;
+
+	padding:10px 0;
+
+	clear:both;
+
+	}
+
+
+
+#spbox2 ul {
+
+	list-style:none;
+
+	padding:0 !important;
+
+	margin:0 !important;
+
+	}
+
+	
+
+#spbox2 ul li {
+
+	list-style:none;
+
+	float:left;
+
+	}
+
+	
+
+#spbox2 ul li a {
+
+	background:url(images/feed-icon.gif) left no-repeat;
+
+	padding:10px 0 10px 45px;
+
+	display:block;
+
+	font-weight:bold;
+
+	}
+
+
+
+#spbox1 p {
+
+	margin-bottom:15px;
+
+}
+
+	
+
+#welcome { margin-top:15px; }
+
+
+
+#content-wrapper { margin-top:15px; padding-bottom:20px !important; }
+
+
+
+.post {
+
+	margin: 0 0 20px 0;
+
+	text-align: left;
+
+	}
+
+
+
+.entry .hr {
+
+	display: block;
+
+	background:url(images/horizon-rule.gif) center no-repeat;
+
+	margin:10px 0 10px 0;
+
+	height:15px;
+
+	clear:both;
+
+	}
+
+
+
+.tags-title, .cat-tag {padding:0 0 0 20px; background: url(images/tag16.png) left no-repeat; margin-top:15px;}
+
+.cat-tag { margin:0 4px; }
+
+
+
+.smallattachment {
+
+	text-align: center;
+
+	float: left;
+
+	width: 128px;
+
+	margin: 5px 5px 5px 0px;
+
+}
+
+
+
+.attachment {
+
+	text-align: center;
+
+	margin: 5px 0px;
+
+}
+
+
+
+.postmetadata {
+
+	clear: both;
+
+	padding: 4px 0 10px 22px;
+
+	background:url(images/clock.gif) 0 3px no-repeat;
+
+	word-spacing:1px;
+
+}
+
+
+
+#footer {
+
+	clear: both;
+
+	background-color:#44555f;
+
+	border-bottom:10px solid #000;
+
+	}
+
+
+
+#footer div {
+
+	text-align: left;
+
+	padding:4px 0;
+
+	}
+
+/* End Structure */
+
+
+
+
+
+
+
+/*	Begin Headers */
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+
+	border-bottom:1px dashed #ccc;
+
+	font-size:1.4em;
+
+	padding:4px 0 7px;
+
+	margin:10px 0 10px 0
+
+	}
+
+
+
+.entry h2 {
+
+	font-size:1.3em;
+
+	}
+
+
+
+.entry h3 {
+
+	font-size:1.2em;
+
+	}
+
+
+
+.entry h4 {
+
+	font-size:1.1em;
+
+	}
+
+
+
+#sidebar h2 {
+
+	margin: 5px 0 0;
+
+	padding: 7px 0;
+
+	}
+
+	
+
+#sub-header h3 {
+
+	border-bottom:1px dashed #ddd;
+
+	padding:0 0 4px 0;
+
+	margin:0 0 4px 0;
+
+	}
+
+	
+
+h3 {
+
+	padding:4px 0;
+
+	}
+
+
+
+h3.comments {
+
+	padding: 0;
+
+	margin: 40px auto 20px ;
+
+	}
+
+
+
+h2.post-title { 
+
+	line-height:1.2em;
+
+	}
+
+	
+
+#content h1 {
+
+	margin-bottom:10px !important;
+
+	}
+
+	
+
+h2.post-title a {
+
+	font-weight:normal;
+
+	font-size:1.30em;
+
+	letter-spacing:0.025em;
+
+	color:#777;
+
+	}
+
+/* End Headers */
+
+
+
+
+
+
+
+/* Begin Images */
+
+p img {
+
+	padding: 0;
+
+	max-width: 100%;
+
+	}
+
+
+
+/*	Using 'class="alignright"' on an image will (who would've
+
+	thought?!) align the image to the right. And using 'class="centered',
+
+	will of course center the image. This is much better than using
+
+	align="center", being much more futureproof (and valid) */
+
+
+
+img.centered {
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	}
+
+
+
+img.alignright {
+
+	padding: 4px;
+
+	margin: 0 0 2px 7px;
+
+	display: inline;
+
+	}
+
+
+
+img.alignleft {
+
+	padding: 4px;
+
+	margin: 0 7px 2px 0;
+
+	display: inline;
+
+	}
+
+
+
+.alignright {
+
+	float: right;
+
+	}
+
+
+
+.alignleft {
+
+	float: left
+
+	}
+
+/* End Images */
+
+
+
+
+
+
+
+/* Begin Lists
+
+
+
+	Special stylized non-IE bullets
+
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+
+
+html>body .entry ul {
+
+	margin-left: 0px;
+
+	padding: 0 0 0 30px;
+
+	list-style: none;
+
+	padding-left: 10px;
+
+	text-indent: -10px;
+
+	}
+
+
+
+html>body .entry li {
+
+	margin: 7px 0 8px 10px;
+
+	}
+
+
+
+.entry ol {
+
+	padding: 0 0 0 35px;
+
+	margin: 0;
+
+	}
+
+
+
+.entry ol li {
+
+	margin: 0;
+
+	padding: 0;
+
+	}
+
+
+
+.postmetadata ul, .postmetadata li {
+
+	display: inline;
+
+	list-style-type: none;
+
+	list-style-image: none;
+
+	}
+
+
+
+#sidebar ul, #sidebar ul ol {
+
+	margin: 0;
+
+	padding: 0;
+
+	}
+
+
+
+#sidebar ul li {
+
+	list-style-type: none;
+
+	list-style-image: none;
+
+	margin-bottom: 20px;
+
+	border-top:5px solid #ddd;
+
+	}
+
+
+
+#sidebar ul p, #sidebar ul select {
+
+	margin: 5px 0 8px;
+
+	}
+
+
+
+#sidebar ul ul, #sidebar ul ol {
+
+	margin: 5px 0 0 10px;
+
+	}
+
+
+
+#sidebar ul ul ul, #sidebar ul ol {
+
+	margin: 0 0 0 10px;
+
+	}
+
+
+
+ol li, #sidebar ul ol li {
+
+	list-style: decimal;
+
+	}
+
+
+
+#sidebar ul ul li, #sidebar ul ol li {
+
+	margin: 3px 0 0;
+
+	border-top:0;
+
+	border-bottom:1px dashed #ddd;
+
+	}
+
+	
+
+#sidebar ul ul li {
+
+	padding: 2px 0 4px 18px;
+
+	background:url(images/icon3.gif) 0 5px no-repeat;
+
+	}
+
+
+
+/* End Entry Lists */
+
+
+
+
+
+
+
+/* Begin Form Elements */
+
+#searchform div {
+
+	margin: 10px auto 0 auto;
+
+	background:url(images/search-box.gif) 0 0 no-repeat;
+
+	padding:0 !important;
+
+	width:220px;
+
+	height:31px
+
+	}
+
+	
+
+#sidebar #searchform div, #content #searchform div { border:1px solid #ccc; }
+
+
+
+#searchsubmit {
+
+	color:#777;
+
+	float:right;
+
+	margin:5px 5px 0 0;
+
+	background:none;
+
+	font-weight:bold;
+
+	border:0 !important;
+
+	cursor:pointer;
+
+	font-size:1.2em;
+
+	}
+
+	
+
+#s {
+
+	width:160px;
+
+	float:left;
+
+	padding:0 0 0 5px;
+
+	margin:7px 0 0;
+
+	height:20px;
+
+	border:0 !important;
+
+	background:none;
+
+	}
+
+	
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+
+	text-align:center;
+
+	}
+
+
+
+select {
+
+	width: 130px;
+
+	}
+
+
+
+#commentform input {
+
+	width: 170px;
+
+	padding: 2px;
+
+	margin: 5px 5px 1px 0;
+
+	}
+
+
+
+#commentform textarea {
+
+	width: 100%;
+
+	padding: 2px;
+
+	}
+
+
+
+#commentform #submit {
+
+	margin: 0;
+
+	float: right;
+
+	}
+
+/* End Form Elements */
+
+
+
+
+
+
+
+/* Begin Comments*/
+
+.alt {
+
+	margin: 0;
+
+	padding: 10px;
+
+	}
+
+
+
+.commentlist {
+
+	padding: 0;
+
+	text-align: justify;
+
+	}
+
+
+
+.commentlist li {
+
+	margin: 15px 0 3px;
+
+	padding: 5px 10px 3px;
+
+	list-style: none;
+
+	}
+
+
+
+.commentlist p {
+
+	margin: 10px 5px 10px 0;
+
+	}
+
+
+
+#commentform p {
+
+	margin: 5px 0;
+
+	}
+
+
+
+.nocomments {
+
+	text-align: center;
+
+	margin: 0;
+
+	padding: 0;
+
+	}
+
+
+
+.commentmetadata {
+
+	margin: 0;
+
+	display: block;
+
+	}
+
+/* End Comments */
+
+
+
+
+
+
+
+/* Begin Sidebar */
+
+#sidebar form {
+
+	margin: 0;
+
+	}
+
+/* End Sidebar */
+
+
+
+
+
+
+
+/* Begin Calendar */
+
+#wp-calendar {
+
+	empty-cells: show;
+
+	margin: 10px auto 0;
+
+	width: 200px;
+
+	}
+
+
+
+#wp-calendar #next a {
+
+	padding-right: 10px;
+
+	text-align: right;
+
+	}
+
+
+
+#wp-calendar #prev a {
+
+	padding-left: 10px;
+
+	text-align: left;
+
+	}
+
+
+
+#wp-calendar a {
+
+	display: block;
+
+	}
+
+
+
+#wp-calendar caption {
+
+	text-align: center;
+
+	width: 100%;
+
+	}
+
+
+
+#wp-calendar td {
+
+	padding: 3px 0;
+
+	text-align: center;
+
+	}
+
+
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+
+	background-color: #fff; }
+
+/* End Calendar */
+
+
+
+
+
+
+
+/* Begin Various Tags & Classes */
+
+acronym, abbr, span.caps {
+
+	cursor: help;
+
+	}
+
+
+
+acronym, abbr {
+
+	border-bottom: 1px dashed #999;
+
+	}
+
+
+
+blockquote {
+
+	margin: 15px 30px 15px 10px;
+
+	padding-left: 20px;
+
+	border-left: 5px solid #ddd;
+
+	}
+
+
+
+blockquote cite {
+
+	margin: 5px 0 0;
+
+	display: block;
+
+	}
+
+
+
+.center {
+
+	text-align: center;
+
+	}
+
+
+
+.hidden {
+
+	display: none;
+
+	}
+
+
+
+hr {
+
+	display: none;
+
+	}
+
+
+
+a img {
+
+	border: none;
+
+	}
+
+
+
+.navigation {
+
+	display: block;
+
+	text-align: center;
+
+	margin-top: 10px;
+
+	margin-bottom: 15px;
+
+	height:24px;
+
+	}
+
+
+
+.single {
+
+	border:1px solid #ccc; border-width:1px 0;
+
+	padding-top:4px;
+
+	}
+
+	
+
+.singlepage {
+
+	width:680px !important;
+
+	}
+
+
+
+.border-bottom {
+
+	padding-bottom:10px;
+
+	border-bottom:1px solid #ccc;
+
+	}
+
+/* End Various Tags & Classes*/
+
+
+
+
+
+
+
+/* Captions */
+
+.aligncenter,
+
+div.aligncenter {
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+.wp-caption {
+
+	border: 1px solid #ddd;
+
+	text-align: center;
+
+	background-color: #f3f3f3;
+
+	padding-top: 4px;
+
+	margin: 10px;
+
+	-moz-border-radius: 3px;
+
+	-khtml-border-radius: 3px;
+
+	-webkit-border-radius: 3px;
+
+	border-radius: 3px;
+
+}
+
+
+
+.wp-caption img {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0 none;
+
+}
+
+
+
+.wp-caption p.wp-caption-text {
+
+	font-size: 11px;
+
+	line-height: 17px;
+
+	padding: 0 4px 5px;
+
+	margin: 0;
+
+}
+
+/* End captions */
+
+
+
+
+
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+
+	It won't be a stylish marriage, I can't afford a carriage.
+
+	But you'll look sweet upon the seat of a bicycle built for two." */
+

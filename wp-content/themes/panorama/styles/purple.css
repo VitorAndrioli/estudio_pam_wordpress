@@ -1,0 +1,38 @@
+
+body {
+background: #636;
+}
+
+
+#wrapper{
+background: #fff url("../images/wrapperbg_purple.jpg") top center repeat-y;
+}
+
+
+#header{
+background: #636 url("../images/headerbg_purple.jpg") bottom center no-repeat;
+}	
+
+ 
+
+#footer {
+background:  url("../images/footerbg_purple.jpg") bottom center no-repeat;
+}
+
+
+#credit{
+background: #636;
+}
+
+#credit p, #credit p a, #credit p a:hover{
+color:#B974B9;
+}
+
+#search{
+background: #7A3E7A;
+border: 1px solid #442244;
+}
+
+#search input{
+color: #fff;
+}

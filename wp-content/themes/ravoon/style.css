@@ -1,0 +1,587 @@
+/*  
+
+Theme Name:Ravoon
+
+Theme URI: http://weblog.hottehran.ir/tag/ravoon
+
+Description: Ravoon is a Persian word meaning Simple or Easy  .Compatible with WordPress 2.7 . Valid CSS & XHTML. Supported languages: Persian(Farsi) , Portuguese(pt_BR) , Polish , French, turkish, German, Russian, Spanish.
+
+Version: 1.8
+
+Author: Maysam Mahmoudi
+
+Author URI: http://weblog.hottehran.ir/
+
+Tags: blue, white, light, two-columns, right-sidebar, fixed-width
+
+
+
+	This theme is released under GNU General Public License (GPL): 
+
+	http://www.gnu.org/licenses/gpl.html
+
+
+
+*/
+
+
+
+body{
+
+	font-family:tahoma,sans-serif,verdana,arial; 
+
+	font-size:11px;
+
+	padding:0;
+
+	margin:5px 0;
+
+	background-color:#eeeeee;
+
+	color:#000000;
+
+	text-align:left;
+
+}
+
+
+
+a:link, a:visited {color:#0066BB;text-decoration: none;} a:hover{color:red;}
+
+
+
+blockquote{
+
+	padding:10px; 
+
+	margin:5px 10px;
+
+	background-color:#FAFAFF;
+
+	border: 1px solid #C0D0E0;
+
+	font-style:italic;
+
+}
+
+
+
+
+
+.page {
+
+	background-color:#ffffff;
+
+	border: 1px solid #C0D0E0;
+
+	padding:5px;
+
+	margin:0 auto;
+
+	width:760px;
+
+}
+
+
+
+.header {
+
+	background:#CCCCCC url(images/header.jpg) no-repeat;
+
+	height:100px;
+
+	width:760px;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+.header h1 {
+
+	color:white;
+
+	font-weight:bold;
+
+	text-align:center;
+
+	font-size:25px;
+
+	margin:0;
+
+	padding:30px 0 0 0;
+
+}
+
+
+
+.header h1 a:link,h1 a:visited {color:#ffffff;}
+
+
+
+.header p{
+
+	margin:0;
+
+	padding:0 0 10px 0;
+
+	color:#ffffff;
+
+}
+
+
+
+.main {
+
+	width:100%;
+
+	border:none;
+
+	border-collapse: collapse;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+
+
+.top {vertical-align: top;}
+
+
+
+.mtitle {
+
+	border-bottom:1px solid #C0D0E0;
+
+	color:#444444;
+
+	background: url(images/bg_title.gif);
+
+	height:20px;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+.mtitle h2{
+
+	background:url(images/bullet_l.gif) no-repeat left;
+
+	font-size:11px;
+
+	margin:0 3px 0 4px;
+
+	padding:4px 2px 5px 7px;
+
+}
+
+
+
+.mtitle h3{
+
+	font-size:11px;
+
+	margin:0 3px 0 4px;
+
+	padding:4px 2px 5px 7px;
+
+}
+
+
+
+.mbody {
+
+	padding: 5px 3px 0px 3px; 
+
+	line-height: 150%;
+
+}
+
+
+
+.mbody form {text-align:center;margin: 0px}
+
+
+
+.mbody p {margin:0;}
+
+
+
+.post {
+
+	border: 1px solid #C0D0E0;
+
+	margin:5px 5px 10px 0;
+
+	padding:0;
+
+	width:578px;	
+
+}
+
+
+
+.postbody {
+
+	padding:0 5px 3px 5px;
+
+	line-height:150%;
+
+    overflow:hidden;	
+
+}
+
+
+
+.postbody p {margin:0 0 5px 0;padding:5px 5px 0 5px;}
+
+
+
+
+
+/* Sidebar */
+
+.sidebar {
+
+	background-color:#FAFAFF;
+
+	border: 1px solid #C0D0E0;
+
+	width:170px;
+
+	margin: 5px 0px 10px 0px;
+
+	padding:0;
+
+    overflow:hidden;	
+
+}
+
+
+
+.sidebar ul{
+
+	list-style-type:square;
+
+	list-style-position:inside;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+.sidebar ul li{margin:1px 2px;padding:1px 2px;}
+
+
+
+.sidebar input{margin:5px;padding:0;}
+
+
+
+
+
+
+
+.nav{
+
+	padding:2px 0;
+
+	margin:0 0 20px 0;
+
+	height:20px;
+
+}
+
+
+
+
+
+.aligncenter,div.aligncenter {
+
+	display: block;
+
+	margin:10px auto;
+
+	padding:5px;
+
+}
+
+
+
+.alignleft {
+
+	float: left;
+
+}
+
+
+
+.alignright {
+
+	float: right;
+
+}
+
+
+
+p.author{
+
+	font-size:9px;
+
+	color:#444444;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+.center{text-align:center;}
+
+
+
+.bold{font-weight:bold;}
+
+
+
+
+
+/* Comments */
+
+#comments{
+
+	width:578px;
+
+	margin:10px auto;
+
+	background-color:#ffffff;
+
+	color:#000000;
+
+	padding-bottom:5px;
+
+    overflow:hidden;	
+
+}
+
+
+
+h2#respond{
+
+	font-size:13px; 
+
+	color:#333333;
+
+	padding:0 10px;
+
+	margin-top:30px;
+
+	}
+
+
+
+.commentlist{margin:0; padding:0; list-style-type:none;}
+
+
+
+.comment-author-admin cite.fn{color:#0066CC;}
+
+
+
+cite.fn{font-style:normal; font-weight:bold;}
+
+
+
+.comment{
+
+	background-color:#FAFAFF;
+
+	border:1px solid #C0D0E0;
+
+	padding:5px;
+
+	margin:5px 10px;
+
+    overflow:hidden;	
+
+}
+
+
+
+.alt{background-color:#ffffff;}
+
+
+
+.author b{color:#990000;}
+
+
+
+.avatar{float:left; padding:2px; margin-right:8px; border: 1px solid #eee; }
+
+
+
+
+
+#comments input, #comments textarea{
+
+	margin:1px 5px;
+
+	padding:1px;
+
+}
+
+
+
+
+
+/* comments popup */
+
+#commentspopup{	background-color:#FAFAFF;}
+
+
+
+h1#header{
+
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+
+	color:#0066BB;
+
+	text-align:center;
+
+	font-size:2em;
+
+	}
+
+
+
+h1#header a{color:#0066BB;}
+
+
+
+h2#comments{font-size:1.6em;color:#0066BB;}
+
+
+
+form#searchform{margin:0;padding:0;}
+
+
+
+table#wp-calendar{
+
+	margin:0 auto;
+
+	padding:3px 0;
+
+	text-align: center;
+
+	font-size:12px;
+
+} 
+
+
+
+table#wp-calendar caption{
+
+	margin:3px auto;
+
+	padding:4px;
+
+	font-size:13px;
+
+	font-weight:bold;
+
+} 
+
+
+
+table#wp-calendar td{
+
+	margin:0;
+
+	padding:2px;
+
+} 
+
+
+
+
+
+.wp-caption {
+
+	border: 1px solid #ddd;
+
+	text-align: center;
+
+	background-color: #f3f3f3;
+
+	padding-top: 4px;
+
+	margin: 10px;
+
+}
+
+
+
+.wp-caption img {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0 none;
+
+}
+
+
+
+.wp-caption-dd {
+
+	font-size: 11px;
+
+	line-height: 17px;
+
+	padding: 0 4px 5px;
+
+	margin: 0;
+
+}
+
+
+
+#footer{
+
+	padding:0;
+
+	margin:50px 5px 5px 0;
+
+}
+
+
+
+#footer p{
+
+	padding:3px;
+
+	margin:0;
+
+	text-align:center;
+
+	color:#808080;
+
+	clear:both;
+
+}

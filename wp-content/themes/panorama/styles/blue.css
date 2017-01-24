@@ -1,0 +1,38 @@
+
+body {
+background: #069;
+}
+
+
+#wrapper{
+background: #fff url("../images/wrapperbg_blue.jpg") top center repeat-y;
+}
+
+
+#header{
+background: #069 url("../images/headerbg_blue.jpg") bottom center no-repeat;
+}	
+
+ 
+
+#footer {
+background:  url("../images/footerbg_blue.jpg") bottom center no-repeat;
+}
+
+
+#credit{
+background: #069;
+}
+
+#credit p, #credit p a, #credit p a:hover{
+color:#00476B;
+}
+
+#search{
+background: #0074AD;
+border: 1px solid #0085C7;
+}
+
+#search input{
+color: #fff;
+}

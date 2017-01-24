@@ -6,7 +6,7 @@
  */
 
 /**
- * Whether this is an XML-RPC Request
+ * Whether this is a XMLRPC Request
  *
  * @var bool
  */
@@ -26,32 +26,23 @@ if ( isset($HTTP_RAW_POST_DATA) )
 	$HTTP_RAW_POST_DATA = trim($HTTP_RAW_POST_DATA);
 
 /** Include the bootstrap for setting up WordPress environment */
-include( dirname( __FILE__ ) . '/wp-load.php' );
+include('./wp-load.php');
 
-if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/rsd.html
+if ( isset( $_GET['rsd'] ) ) { // http://archipelago.phrasewise.com/rsd
 header('Content-Type: text/xml; charset=' . get_option('blog_charset'), true);
 ?>
 <?php echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 <rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
   <service>
     <engineName>WordPress</engineName>
-    <engineLink>https://wordpress.org/</engineLink>
+    <engineLink>http://wordpress.org/</engineLink>
     <homePageLink><?php bloginfo_rss('url') ?></homePageLink>
     <apis>
       <api name="WordPress" blogID="1" preferred="true" apiLink="<?php echo site_url('xmlrpc.php', 'rpc') ?>" />
       <api name="Movable Type" blogID="1" preferred="false" apiLink="<?php echo site_url('xmlrpc.php', 'rpc') ?>" />
       <api name="MetaWeblog" blogID="1" preferred="false" apiLink="<?php echo site_url('xmlrpc.php', 'rpc') ?>" />
       <api name="Blogger" blogID="1" preferred="false" apiLink="<?php echo site_url('xmlrpc.php', 'rpc') ?>" />
-      <?php
-      /**
-       * Add additional APIs to the Really Simple Discovery (RSD) endpoint.
-       *
-       * @link http://cyber.law.harvard.edu/blogs/gems/tech/rsd.html
-	   *
-       * @since 3.5.0
-       */
-      do_action( 'xmlrpc_rsd_apis' );
-      ?>
+      <api name="Atom" blogID="" preferred="false" apiLink="<?php echo apply_filters('atom_service_url', site_url('wp-app.php/service', 'rpc') ) ?>" />
     </apis>
   </service>
 </rsd>
@@ -61,41 +52,56 @@ exit;
 
 include_once(ABSPATH . 'wp-admin/includes/admin.php');
 include_once(ABSPATH . WPINC . '/class-IXR.php');
-include_once(ABSPATH . WPINC . '/class-wp-xmlrpc-server.php'); 
+include_once(ABSPATH . WPINC . '/class-wp-xmlrpc-server.php');
+
+// Turn off all warnings and errors.
+// error_reporting(0);
 
 /**
- * Posts submitted via the XML-RPC interface get that title
+ * Posts submitted via the xmlrpc interface get that title
  * @name post_default_title
  * @var string
  */
 $post_default_title = "";
 
 /**
- * Filters the class used for handling XML-RPC requests.
+ * Whether to enable XMLRPC Logging.
  *
- * @since 3.1.0
- *
- * @param string $class The name of the XML-RPC server class.
+ * @name xmlrpc_logging
+ * @var int|bool
  */
-$wp_xmlrpc_server_class = apply_filters( 'wp_xmlrpc_server_class', 'wp_xmlrpc_server' );
-$wp_xmlrpc_server = new $wp_xmlrpc_server_class;
-
-// Fire off the request
-$wp_xmlrpc_server->serve_request();
-
-exit;
+$xmlrpc_logging = 0;
 
 /**
  * logIO() - Writes logging info to a file.
  *
- * @deprecated 3.4.0 Use error_log()
- * @see error_log()
+ * @uses $xmlrpc_logging
+ * @package WordPress
+ * @subpackage Logging
  *
  * @param string $io Whether input or output
  * @param string $msg Information describing logging reason.
+ * @return bool Always return true
  */
-function logIO( $io, $msg ) {
-	_deprecated_function( __FUNCTION__, '3.4.0', 'error_log()' );
-	if ( ! empty( $GLOBALS['xmlrpc_logging'] ) )
-		error_log( $io . ' - ' . $msg );
+function logIO($io,$msg) {
+	global $xmlrpc_logging;
+	if ($xmlrpc_logging) {
+		$fp = fopen("../xmlrpc.log","a+");
+		$date = gmdate("Y-m-d H:i:s ");
+		$iot = ($io == "I") ? " Input: " : " Output: ";
+		fwrite($fp, "\n\n".$date.$iot.$msg);
+		fclose($fp);
+	}
+	return true;
 }
+
+if ( isset($HTTP_RAW_POST_DATA) )
+	logIO("I", $HTTP_RAW_POST_DATA);
+
+// Allow for a plugin to insert a different class to handle requests.
+$wp_xmlrpc_server_class = apply_filters('wp_xmlrpc_server_class', 'wp_xmlrpc_server');
+$wp_xmlrpc_server = new $wp_xmlrpc_server_class;
+
+// Fire off the request
+$wp_xmlrpc_server->serve_request();
+?>

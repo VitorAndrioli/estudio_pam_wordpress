@@ -1,12 +1,13 @@
 <?php
 /**
- * Comment Moderation Administration Screen.
+ * Comment Moderation Administration Panel.
  *
  * Redirects to edit-comments.php?comment_status=moderated.
  *
  * @package WordPress
  * @subpackage Administration
  */
-require_once( dirname( dirname( __FILE__ ) ) . '/wp-load.php' );
+require_once('../wp-load.php');
 wp_redirect( admin_url('edit-comments.php?comment_status=moderated') );
 exit;
+?>

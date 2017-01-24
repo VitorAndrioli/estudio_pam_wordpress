@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ravoon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-06 15:53+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: maysam <persianboys.ir@gmail.com>\n"
+"Language-Team: Hot Tehran <HotTehran@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp\\wp-content\\themes\\ravoon\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp\\wp-content\\themes\\ravoon\n"
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:5
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:7
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:12
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:41
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:38
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:22
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:29
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:39
+msgid "Copyright &copy; "
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:39
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:40
+msgid "Powered by "
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:39
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:30
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:40
+msgid "<a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:43
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:40
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:24
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:32
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:41
+msgid "Theme Design By <a href=\"http://weblog.Hottehran.ir\">Maysam</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:44
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:41
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:25
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:32
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:38
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:42
+msgid "Entries (RSS)"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:45
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:26
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:34
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:43
+msgid "and"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/404.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:45
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:42
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:26
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:34
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:33
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:43
+msgid "Comments (RSS)"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:10
+msgid "Archive for the"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:10
+msgid "Category"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:12
+msgid "Posts Tagged"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:18
+msgid "Archive for"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:14
+msgid "F jS, Y"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:16
+msgid "F, Y"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:18
+msgid "Y"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:20
+msgid "Author Archive"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:22
+msgid "Blog Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archive.php:36
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:13
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:23
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:31
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:32
+msgid "Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:12
+msgid "Archives by Month:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/archives.php:25
+msgid "Archives by Subject:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "No Responses to"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "One Response to"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:24
+msgid "% Responses to"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:46
+msgid "Comments are closed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:54
+msgid "Leave a Reply"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "You must be"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "logged in"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:61
+msgid "to post a comment."
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Logged in as"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:68
+msgid "Log out"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:73
+msgid "Name"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:76
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:79
+msgid "Website"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:83
+msgid "You can use these tags:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/comments.php:87
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/index.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:33
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-pagebar.php:5
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:16
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-pagebar.php:6
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:17
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:6
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:9
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:9
+msgid "Posted by"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:7
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:10
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:10
+msgid " at "
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:11
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:14
+msgid "<br />Read the rest of this entry &raquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:12
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:17
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:15
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:14
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:17
+msgid " Tags: "
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:15
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:18
+msgid "Posted in:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "No Comments &#187;"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:16
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/page.php:19
+msgid "% Comments &#187;"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/item-post.php:17
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/single.php:19
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/search.php:6
+msgid "Search Results"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/searchform.php:3
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:5
+msgid "Search"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:10
+msgid "Pages"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:26
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:34
+msgid "Meta"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:39
+msgid "Valid xhtml"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:40
+msgid "Valid CSS"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:47
+msgid "Links"
+msgstr ""
+
+#: C:\xampp\htdocs\wp\wp-content\themes\ravoon/sidebar.php:54
+msgid "Calendar"
+msgstr ""
+

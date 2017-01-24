@@ -1,13 +1,12 @@
 <?php
 /**
- * User Dashboard Administration Screen
+ * User Dashboard Administration Panel
  *
  * @package WordPress
  * @subpackage Administration
  * @since 3.1.0
  */
 
-/** Load WordPress Administration Bootstrap */
-require_once( dirname( __FILE__ ) . '/admin.php' );
+require_once( './admin.php' );
 
-require( ABSPATH . 'wp-admin/index.php' );
+require( '../index.php' );
